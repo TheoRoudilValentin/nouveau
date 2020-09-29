@@ -34,6 +34,16 @@ Modifier un fichier existant sur le master github:
 2. git commit -m "informations sur le fichier"
 3. git push origin master 
 
+
+Change from branch : 
+1. git checkout <yourbranchname>
+(2. git branch to check)
+
+Récupérer et mettre à niveau depuis github :
+(0. first check and change to the correct depository)
+1.git pull origin master
+
+
 A commit is a record of what files you have changed since the last time you made a commit. 
 Essentially, you make changes to your repo (for example, adding a file or modifying one) and then tell git to put those files into a commit.
 Commits make up the essence of your project and allow you to go back to the state of a project at any point.
