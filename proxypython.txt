@@ -1,6 +1,4 @@
-cd /d C:\INSEE\Miniconda3
-set https_proxy=proxy-rie.http.insee.fr:8080
-set http_proxy=proxy-rie.http.insee.fr:8080
+
 conda install 
 
 
