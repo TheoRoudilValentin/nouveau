@@ -1,0 +1,26 @@
+cd /d C:\INSEE\Miniconda3
+set https_proxy=proxy-rie.http.insee.fr:8080
+set http_proxy=proxy-rie.http.insee.fr:8080
+conda install 
+
+
+conda config --append channels conda-forge
+
+
+pip install
+
+python setup.py install
+pip install --only-binary :all: 
+
+
+Initialize git repo : 
+1. install git
+2. in cmd -> cd /d yourpath 
+3. git init 
+4. put a file in your project repo
+5. git add file
+
+
+A commit is a record of what files you have changed since the last time you made a commit. 
+Essentially, you make changes to your repo (for example, adding a file or modifying one) and then tell git to put those files into a commit.
+Commits make up the essence of your project and allow you to go back to the state of a project at any point.
