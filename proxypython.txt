@@ -19,6 +19,30 @@ Initialize git repo :
 3. git init 
 4. put a file in your project repo
 5. git add file
+(on peut relancer git status pour vérifier -> on a bien un file "to be commited" mais pas encore stagged)
+6. git commit -m "message précis concernant le fichier à commit"
+7.1 git config --global user.email theo.roudil@ens-paris-saclay.fr
+7.2 git config --global user.name "TheoRoudilValentin"
+8. git branch (tells on which branch you are)
+9. git checkout -b branchname (create a new one)
+10. create a new repository in your git hub and then :
+     git remote add origin <URL direction le nouveau>
+     git branch -M master
+     git push -u origin master
+11. create a new branch on github : git push origin <branchname>
+
+Modifier un fichier existant sur le master github:
+1. git add file
+2. git commit -m "informations sur le fichier"
+3. git push origin master 
+
+Change from branch : 
+1. git checkout <yourbranchname>
+(2. git branch to check)
+
+Récupérer et mettre à niveau depuis github :
+(0. first check and change to the correct depository)
+1.git pull origin master
 
 
 A commit is a record of what files you have changed since the last time you made a commit. 
