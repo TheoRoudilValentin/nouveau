@@ -31,6 +31,11 @@ Initialize git repo :
      git push -u origin master
 11. create a new branch on github : git push origin <branchname>
 
+Modifier un fichier existant sur le master github:
+1. git add file
+2. git commit -m "informations sur le fichier"
+3. git push origin master 
+
 A commit is a record of what files you have changed since the last time you made a commit. 
 Essentially, you make changes to your repo (for example, adding a file or modifying one) and then tell git to put those files into a commit.
 Commits make up the essence of your project and allow you to go back to the state of a project at any point.
